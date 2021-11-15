@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Heal_Box
+  - Trap_1
+  - Key
+  - Enemy
   layers:
   - Default
   - TransparentFX
