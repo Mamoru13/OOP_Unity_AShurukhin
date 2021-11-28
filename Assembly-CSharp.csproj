@@ -54,8 +54,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\IDamage.cs" />
-    <Compile Include="Assets\Script\IHeat.cs" />
     <Compile Include="Assets\Script\Player.cs" />
+    <Compile Include="Assets\Script\Trap.cs" />
+    <Compile Include="Assets\Script\IHeat.cs" />
+    <Compile Include="Assets\Script\UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

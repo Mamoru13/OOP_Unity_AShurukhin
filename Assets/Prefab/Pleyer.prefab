@@ -94,9 +94,11 @@ GameObject:
   - component: {fileID: 4246968557382968385}
   - component: {fileID: 3426705559652035408}
   - component: {fileID: 5027966218236675198}
+  - component: {fileID: 8663976938107308849}
+  - component: {fileID: 9070607316390467680}
   m_Layer: 0
   m_Name: Pleyer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,8 +152,38 @@ MonoBehaviour:
   _mouseSense: 100
   _Camera: {fileID: 4246968556874199079}
   _speedPlayer: 1
-  _trap: {fileID: 0}
   _Door: {fileID: 0}
+  _Kik: {fileID: 9070607316390467680}
+--- !u!136 &8663976938107308849
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246968557382968386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.2, z: 0}
+--- !u!111 &9070607316390467680
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246968557382968386}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 08b6a742815bf6a4188ea8fd56065312, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 08b6a742815bf6a4188ea8fd56065312, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &4387354883230293752
 GameObject:
   m_ObjectHideFlags: 0
